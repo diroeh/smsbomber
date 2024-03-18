@@ -349,7 +349,7 @@ def ATTACK(target):
                 print('\nОтмена.')
       finally:
           print (Fore.CYAN + Style.BRIGHT + "Круг пройден!")
-number = "380683568795"#str(input(Fore.YELLOW + Style.BRIGHT + "Введи номер телефона +"))
+number = str(input(Fore.YELLOW + Style.BRIGHT + "Введи номер телефона +"))
 run = int(input(Fore.CYAN + Style.BRIGHT + "Количество повторений: "))
 for _ in track(range(run)):
     ATTACK(number)
